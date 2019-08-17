@@ -1,0 +1,24 @@
+<div>
+    <input #searchId />
+    <button (click)="searchMembers(searchId.value)">検索</button>
+    <button routerLink="/add">新規追加</button>
+    <hr>
+
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>名前</th>
+            <th>年齢</th>
+            <th></th>
+        </tr>
+        <tr *ngFor="let member of members$ | async">
+            <td><a routerLink="/edit/{{member.id}}">{{member.id}}</a></td>
+            <td>{{member.name}}</td>
+            <td>{{member.age}}</td>
+            <td><button (click)="deleteMember(member.id)">削除</button></td>
+        </tr>
+    </table>
+    <br>
+    <br>
+</div>
+<hr>

@@ -1,0 +1,13 @@
+# Angular + SpingBoot
+19_AzureFunctions/DemoApplication/.classpath
+19_AzureFunctions/DemoApplication/.settings/
+19_AzureFunctions/DemoApplication/.gradle
+19_AzureFunctions/DemoApplication/bin/
+19_AzureFunctions/DemoApplication/src/main/angular/demoapp/node_modules/
+19_AzureFunctions/DemoApplication/src/main/resources/static/
+
+# Azure Functions
+19_AzureFunctions/DemoAzureFunctions/.settings/
+19_AzureFunctions/DemoAzureFunctions/.vscode/
+19_AzureFunctions/DemoAzureFunctions/target/
+19_AzureFunctions/DemoAzureFunctions/.classpath
