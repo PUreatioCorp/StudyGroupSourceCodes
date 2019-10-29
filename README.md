@@ -22,3 +22,13 @@ The operation procedure is described below (Environment construction should be p
 2. Start DemoApplication as Spring Boot App.
 3. Start DemoAzureFunctions as Azure Functions.
 4. Connect to the DemoApplication screen.
+
+## 20. LINE Messaging API Sample
+This is a sample of the 20th issue on LINE Messaging API.
+In LINE Messaging API, it is a sample using the broadcast message transmission API.
+
+To run the sample, you need to modify one point.
+- [`API Access Token`](https://github.com/PUreatioCorp/StudyGroupSourceCodes/blob/a4c4b80b9fab03a761db42cf67fc5ab1620e171b/20_LineMessagingAPISample/src/main/java/com/pureatio/line/api/sample/LineAPISample.java#L28)
+  - You need to enter the API Token for your LINE official account.
+
+When executing, there is no problem if you can execute the main method of LineAPISample class.
