@@ -24,7 +24,7 @@ The operation procedure is described below (Environment construction should be p
 4. Connect to the DemoApplication screen.
 
 ## 20. LINE Messaging API Sample
-This is a sample of the 20th issue on LINE Messaging API.
+This is a sample of the 20th issue on LINE Messaging API.  
 In LINE Messaging API, it is a sample using the broadcast message transmission API.
 
 To run the sample, you need to modify one point.
@@ -34,7 +34,7 @@ To run the sample, you need to modify one point.
 When executing, there is no problem if you can execute the main method of LineAPISample class.
 
 ## 21. LINE Chatbot Sample
-This is a sample of the 21th issue on LINE Chatbot.
+This is a sample of the 21th issue on LINE Chatbot.  
 If you enter a Japanese postal code, the address will be returned to the bot.
 
 The following API is used for address search.
