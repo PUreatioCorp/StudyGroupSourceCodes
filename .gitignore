@@ -17,3 +17,8 @@
 20_LineMessagingAPISample/.settings/
 20_LineMessagingAPISample/.gradle/
 20_LineMessagingAPISample/bin/
+
+# Line Chatbot sample
+21_LineChatBotSample/.classpath
+21_LineChatBotSample/.settings/
+21_LineChatBotSample/target/

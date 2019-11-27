@@ -32,3 +32,12 @@ To run the sample, you need to modify one point.
   - You need to enter the API Token for your LINE official account.
 
 When executing, there is no problem if you can execute the main method of LineAPISample class.
+
+## 21. LINE Chatbot Sample
+This is a sample of the 21th issue on LINE Chatbot.
+If you enter a Japanese postal code, the address will be returned to the bot.
+
+The following API is used for address search.
+- http://zipcloud.ibsnet.co.jp/doc/api
+
+Since it is created in the AWS Lambda project, please deploy to your own environment when actually using it.
