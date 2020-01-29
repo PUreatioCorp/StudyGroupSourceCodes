@@ -41,3 +41,27 @@ The following API is used for address search.
 - http://zipcloud.ibsnet.co.jp/doc/api
 
 Since it is created in the AWS Lambda project, please deploy to your own environment when actually using it.
+
+## 22. LINE Chatbot Sample2
+This is a sample of the 22th issue on LINE Chatbot.  
+Performs conversion between character strings and QR codes and ZXing is used for QR code conversion.
+- https://github.com/zxing/zxing
+
+Since it is created in the AWS Lambda project, please deploy to your own environment when actually using it.  
+Since Amazon S3 and RDS are used for data storage, preparation is also required for the left.
+
+The environment variables that need to be set are as follows.
+- QRCODE_URL_BASE
+  - URL that is the base when putting files to Amazon S3.
+- S3_BUCKET_NAME
+  - Amazon S3 bucket name.
+- S3_KEY_FORMAT
+  - Format for generating Amazon S3 key names. If you place the file in the data folder, it will be `data/%s`.
+- CONNECTION_STRING
+  - Amazon RDS connection string. Using MySQL5.X.
+- USER_ID
+  - Amazon RDS login user name.
+- PASSWORD
+  - Amazon RDS login password.
+- LINE_ACCESS_TOKEN
+  - You need to enter the API Token for your LINE official account.
