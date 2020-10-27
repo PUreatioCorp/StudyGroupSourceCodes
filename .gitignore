@@ -27,3 +27,10 @@
 22_LineChatBotQRSamplex/.classpath
 22_LineChatBotQRSamplex/.settings/
 22_LineChatBotQRSamplex/target/
+
+# Amazon Lex sample
+24_AmazonLexSample/LexChatBotSample/.classpath
+24_AmazonLexSample/LexChatBotSample/.settings/
+24_AmazonLexSample/LexChatBotSample/target/
+24_AmazonLexSample/LexBotSample/LexBotSample/bin/
+24_AmazonLexSample/LexBotSample/LexBotSample/obj/

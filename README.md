@@ -65,3 +65,16 @@ The environment variables that need to be set are as follows.
   - Amazon RDS login password.
 - LINE_ACCESS_TOKEN
   - You need to enter the API Token for your LINE official account.
+
+## 24. Amazon Lex Sample
+This is sample of the 24th issue on Amazon Lex.
+Enter the Japanese postal code in LexBotSample and press the send button to call the bot in Amazon Lex.
+
+The following API is used for address search.
+- http://zipcloud.ibsnet.co.jp/doc/api
+
+The sample is roughly divided into the following two.  
+1. LexBotSample --- C# desktop sample application.
+2. LexChatBotSample --- sample AWS Lambda project for Java.
+
+In order to run LexBotSample, AWS environment settings such as region are required in the App.config file, so please set appropriately.
