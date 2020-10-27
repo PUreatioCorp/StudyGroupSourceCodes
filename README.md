@@ -67,7 +67,7 @@ The environment variables that need to be set are as follows.
   - You need to enter the API Token for your LINE official account.
 
 ## 24. Amazon Lex Sample
-This is sample of the 24th issue on Amazon Lex.
+This is sample of the 24th issue on Amazon Lex.  
 Enter the Japanese postal code in LexBotSample and press the send button to call the bot in Amazon Lex.
 
 The following API is used for address search.
