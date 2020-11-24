@@ -78,3 +78,16 @@ The sample is roughly divided into the following two.
 2. LexChatBotSample --- sample AWS Lambda project for Java.
 
 In order to run LexBotSample, AWS environment settings such as region are required in the App.config file, so please set appropriately.
+
+## 25. Nadeshiko Sample
+This is sample of the 25th issue on Nadeshiko.  
+Enter the Japanese postal code in Nadeshiko and press the send button to call the bot in Amazon Lex.
+
+Please refer to the following page for Nadeshiko.
+- https://nadesi.com/top/
+
+The sample is roughly divided into the following two.  
+1. Nadeshiko --- Nadeshiko desktop sample application.
+2. LexChatBotSample --- sample AWS Lambda project for Java. It is almost the same as the 24th one.
+
+In order to run LexBotSample, AWS environment settings such as region are required in the Demo.nako file, so please set appropriately.

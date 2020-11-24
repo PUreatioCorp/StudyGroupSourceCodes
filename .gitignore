@@ -34,3 +34,8 @@
 24_AmazonLexSample/LexChatBotSample/target/
 24_AmazonLexSample/LexBotSample/LexBotSample/bin/
 24_AmazonLexSample/LexBotSample/LexBotSample/obj/
+
+# Nadeshiko sample
+25_Nadeshiko/LexChatBotSample/.classpath
+25_Nadeshiko/LexChatBotSample/.settings/
+25_Nadeshiko/LexChatBotSample/target/
