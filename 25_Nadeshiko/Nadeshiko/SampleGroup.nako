@@ -1,0 +1,9 @@
+■サンプルグループ
+　・郵便番号
+　・郵便番号表示～
+　　自身→郵便番号を表示する。
+  ・AWSLexコマンド実行～
+　　# 利用する場合は、リージョン、ボット名部分を修正してください。
+　　コマンド文字列 = 「cmd /c aws lex-runtime post-text --region ＜リージョン＞ --bot-name ＜ボット名＞ --bot-alias "$LATEST" --user-id 1111 --input-text "郵便番号 {自身→郵便番号}" > c:\work\aws.txt」
+　　コマンド文字列を起動待機。
+　　それは、「c:\work\aws.txt」を読む。

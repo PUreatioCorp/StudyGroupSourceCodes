@@ -87,7 +87,7 @@ Please refer to the following page for Nadeshiko.
 - https://nadesi.com/top/
 
 The sample is roughly divided into the following two.  
-1. Nadeshiko --- Nadeshiko desktop sample application.
+1. Nadeshiko --- Nadeshiko desktop sample application and group sample.
 2. LexChatBotSample --- sample AWS Lambda project for Java. It is almost the same as the 24th one.
 
 In order to run LexBotSample, AWS environment settings such as region are required in the Demo.nako file, so please set appropriately.
