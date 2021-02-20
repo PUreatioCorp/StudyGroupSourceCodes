@@ -91,3 +91,16 @@ The sample is roughly divided into the following two.
 2. LexChatBotSample --- sample AWS Lambda project for Java. It is almost the same as the 24th one.
 
 In order to run LexBotSample, AWS environment settings such as region are required in the Demo.nako file, so please set appropriately.
+
+## 26. Memcached
+This is sample of the 26th issue on Memcached.  
+Save / retrieve data from C# application to Memcached.
+
+Python-Memcached is used to save and retrieve data in Memcached.
+- https://pypi.org/project/python-memcached/
+
+The sample is roughly divided into the following two.  
+1. Docker --- Files used by Docker including Python program.
+2. MemcachedFormApp --- C# GUI application.
+
+For the Docker image running the Python program, build the pushed dockerfile.

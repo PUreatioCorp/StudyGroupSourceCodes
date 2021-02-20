@@ -1,0 +1,20 @@
+version: '2'
+services:
+  python:
+    image: mypy-memcached
+    container_name: my-python
+    tty: true
+    depends_on:
+      - memcached
+    expose:
+      - "11211"
+    volumes:
+      - .:/var/src
+  memcached:
+    image: memcached
+    container_name: my-memcached
+    tty: true
+    expose:
+      - "11211"
+    ports:
+      - "11211:11211"

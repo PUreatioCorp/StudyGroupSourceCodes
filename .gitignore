@@ -39,3 +39,6 @@
 25_Nadeshiko/LexChatBotSample/.classpath
 25_Nadeshiko/LexChatBotSample/.settings/
 25_Nadeshiko/LexChatBotSample/target/
+
+# Memcached sample
+26_Memcached/MemcachedFormApp/.vs/
