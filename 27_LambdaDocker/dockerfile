@@ -1,0 +1,6 @@
+FROM public.ecr.aws/lambda/java:11
+
+COPY java/TranslateSentence/lib/build/classes/java/main ${LAMBDA_TASK_ROOT}
+COPY java/TranslateSentence/lib/build/dependency/* ${LAMBDA_TASK_ROOT}/lib/
+
+CMD [ "com.pureatio.handler.TranslateSentenceHandler::handleRequest" ]

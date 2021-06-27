@@ -104,3 +104,15 @@ The sample is roughly divided into the following two.
 2. MemcachedFormApp --- C# GUI application.
 
 For the Docker image running the Python program, build the pushed dockerfile.
+
+## 27. Lambda Docker container image
+This is sample of the 27th issue on AWS Lambda.  
+Translate Japanese into English through Lambda functions.
+
+The sample is roughly divided into the following three.  
+1. chrome --- Chrome extension.
+2. TranslateSentence --- Lambda functions(JDK11) for Docker container images.
+3. dockerfile --- Build 2 and create a Docker container image.
+
+You need to modify the URL of the Chroem extension to the URL of the API-Gateway you created.  
+Also, please note that if you try to call it locally via the Chrome extension, an error will occur because you have not set CORS.

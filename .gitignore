@@ -42,3 +42,12 @@
 
 # Memcached sample
 26_Memcached/MemcachedFormApp/.vs/
+
+# LambdaDocker
+27_LambdaDocker/TranslateSentence/.settings/
+27_LambdaDocker/TranslateSentence/.gradle/
+27_LambdaDocker/TranslateSentence/lib/.settings/
+27_LambdaDocker/TranslateSentence/lib/.gradle/
+27_LambdaDocker/TranslateSentence/lib/bin/
+27_LambdaDocker/TranslateSentence/lib/build/
+27_LambdaDocker/TranslateSentence/lib/.classpath
