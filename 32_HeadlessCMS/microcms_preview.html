@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>microCMS SDK</title>
+  </head>
+  <body>
+    <h1 id="title"></h1>
+    <hr><br><br>
+    <textarea id="contents" rows="10" cols="100"></textarea>
+  </body>
+  <script src="https://unpkg.com/microcms-js-sdk@latest/dist/umd/microcms-js-sdk.js"></script>
+  <script>
+    const url = new URL(window.location.href);
+    const params = url.searchParams;
+    
+    const { createClient } = microcms;
+
+    const client = createClient({
+      serviceDomain: 'your service domain',
+      apiKey: 'your api key',
+    })
+    client.get({ endpoint: 'your endpoint', contentId: params.get("contentId"), queries: {draftKey: params.get("draftKey")} }).then((res) => {
+      
+      document.querySelector('#title').textContent = res.title;
+      document.querySelector('#contents').textContent = res.contents;
+    })
+  </script>
+</html>

@@ -116,3 +116,15 @@ The sample is roughly divided into the following three.
 
 You need to modify the URL of the Chroem extension to the URL of the API-Gateway you created.  
 Also, please note that if you try to call it locally via the Chrome extension, an error will occur because you have not set CORS.
+
+## 32. Headless CMS
+This is sample of the 27th issue on Headless CMS.  
+MicroCMS is used for headless CMS.
+- https://microcms.io/
+
+This sample is the following two.  
+1. microcms1.html --- Published content display sample.
+2. microcms_preview.html --- This is a sample screen preview of draft content. It is necessary to set the URL for screen preview to the outside.
+
+When using the sample, modify the values of service domain, endpoint, contents ID, draft key, etc. as appropriate.
+
